@@ -12,30 +12,31 @@
     <title>Georgi Gospodinov's Portfolio Website</title>
 </head>
 <body>
-    <nav>
+    <nav class="about">
         <ul>
             <li><h1>
-                <a href="index.html">
-                    <span class="fa-sharp fa-solid fa-code" aria-hidden="true"></span>
-                    <span>Georgi Gospodinov</span>
-                </a>
+              <a href="index.html">
+                   
+                 <span class="link">Gospodinov </span><span>🇧🇬</span>
+             </a>
             </h1></li>
-            <li><a href="index.html#projects">Projects</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="index.html#contact">Contacts</a></li>
-            <li><a href="https://www.linkedin.com/in/georgi-georgiev-a07534ab/" target="_blank"><span class="fa-brands fa-linkedin" aria-hidden="true"></span>
+            <li><a class="navLink" href="index.html#projects">Projects</a></li>
+            <li><a class="navLink" href="about.html">About</a></li>
+            <li><a class="navLink" href="index.html#contact">Contacts</a></li>
+            <li><a class="link" href="https://www.linkedin.com/in/georgi-georgiev-a07534ab/" target="_blank"><span class="fa-brands fa-linkedin" aria-hidden="true"></span>
             <span class="sr-only">LinkedIn</span></a></li>
-            <li><a href="https://github.com/gergacio" target="_blank"><span class="fa-brands fa-github" aria-hidden="true"></span> 
+            <li><a class="link" href="https://github.com/gergacio" target="_blank"><span class="fa-brands fa-github" aria-hidden="true"></span> 
                 <span class="sr-only">GitHub</span></a></li>
-            <li><a class="button">Resume</a></li>
+            <!-- <li><a class="button">Resume</a></li> -->
         </ul>
+      
     </nav>
    
     
     <div class="gradient"></div>
     <div class="section-darkBlueG" class="fav">
         <section id="projects" class="fav">
-            <h1>About Georgi Gospodinov</h1>
+          <h1 class="about-heading">About Georgi Gospodinov</h1>
             <article>
             <div class="text">
                 <h2>Education</h2>
@@ -46,37 +47,31 @@
                     <h5>Functional Programming with JavaScript at SoftUni.</h5>
                     <h5>Routing and Switching at Cisco Academy®. </h5>           
              
-                </div>
-            
+                </div>            
             </div>
-            <img class="me" src="./path/images/me.jpg" alt="me" />
-            </article>
-          
-          
-        
+            <img class="me my-img" src="./path/images/me.jpg" alt="me" />
+            </article> 
             <article>
-                <div class="text" class="reverse">
+                <div class="textAbout">
 
               
-                  <h2>My favorite technologies includes:</h2>
+                     <h2>My favorite technologies includes:</h2>
                  
        
-              <div class="show">
-             
-                
-        
-                  <h5>Project Management Tools - Jira</h5>
-                  <h5>Databases - PostgreSQL | MongoDB | H2 </h5></li>
-                  <h5>Code Editor/IDE - Visual Studio Code | Intellij IDEA </h5> 
-                  <h5>Programming Languages - SQL | JavaScript | Java</h5>                 
-                  <h5>Front-end Technologies - HTML | CSS | React</h5>  
-                  <h5>Web Frameworks - Express | Spring Boot </h5> 
-                  <h5>Testing Frameworks - Mocha | Jest | JUnit 5 </h5>
-                  <h5>Version Control Software Tools - Git </h5>
-                  <h5>Cloud Computing - AWS  S3 | RDS | Elastic Beanstalk</h5>
-                  <h5>Containerisation Platform - Docker </h5>     
-                
-              </div>
+                    <div class="tools">
+                  
+                        <h5>Project Management Tools - Jira | Trello</h5>
+                        <h5>Databases - MySQL | PostgreSQL | MongoDB | H2 </h5></li>
+                        <h5>Code Editor/IDE - Visual Studio Code | Intellij IDEA </h5> 
+                        <h5>Programming Languages - SQL | JavaScript | Java</h5>                 
+                        <h5>Front-end Technologies - HTML | CSS | React</h5>  
+                        <h5>Web Frameworks - Express | Spring Boot </h5> 
+                        <h5>Testing Frameworks - Mocha | Jest | JUnit 5 </h5>
+                        <h5>Version Control Software Tools - Git </h5>
+                        <h5>Cloud Computing - AWS  S3 | RDS | Elastic Beanstalk</h5>
+                        <h5>Containerisation Platform - Docker </h5>     
+                      
+                    </div>
             </div> 
     
              
@@ -85,31 +80,32 @@
 
         </section>
     </div>
-    <div class="gradient"></div>
+    <!-- <div class="gradient"></div> -->
     <footer>
-      <div><h2><span> <a href="index.html">Georgi Gospodinov</a></span> &middot; <span><a href="index.html#projects">Web developer</a></span></h2></div>
-        <ul>
-          <li>
-            <a href="https://www.linkedin.com/in/georgi-georgiev-a07534ab/" target="_blank">
-              <span class="fab fa-linkedin" aria-hidden="true"></span>
-              <span class="sr-only">LinkedIn</span>
-            </a>
-          </li> 
-          <li>
-            <a href="https://github.com/gergacio" target="_blank">
-              <span class="fab fa-github-square" aria-hidden="true"></span>
-              <span class="sr-only">Github</span>
-            </a>
-          </li>
-          <li>
-            <a href="mailto:ggeorgeuk@gmail.com">
-              <span class="fas fa-envelope" aria-hidden="true"></span>
-              <span class="sr-only">Email</span>
-            </a>
-          </li>
-        </ul>
-        <p><small>&copy; 2023 Georgi Gospodinov. All rights reserved.</small></p>
-      </footer>
+      <h4><span> <a class="link" href="index.html">Georgi Gospodinov</a></span> &middot; <span><a class="link" href="index.html#projects">Web developer</a></span></h4>
+     
+      <ul>
+        <li>
+          <a class="link" href="https://www.linkedin.com/in/georgi-georgiev-a07534ab/" target="_blank">
+            <span class="fab fa-linkedin" aria-hidden="true"></span>
+            <span class="sr-only">LinkedIn</span>
+          </a>
+        </li> 
+        <li>
+          <a class="link" href="https://github.com/gergacio" target="_blank">
+            <span class="fab fa-github-square" aria-hidden="true"></span>
+            <span class="sr-only">Github</span>
+          </a>
+        </li>
+        <li>
+          <a class="link" href="mailto:ggeorgeuk@gmail.com">
+            <span class="fas fa-envelope" aria-hidden="true"></span>
+            <span class="sr-only">Email</span>
+          </a>
+        </li>
+      </ul>
+      <p>All rights reserved &copy; 2023 | Created by Georgi Gospodinov</p>  
+    </footer>
 
 </body>
 </html>
