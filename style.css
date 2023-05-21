@@ -706,7 +706,7 @@ footer ul {
     align-items: start;
     gap: 5rem;
     font-size: 1.5rem;
-    font-family: var(--sans);
+   
     padding: 2rem;
 
   }
@@ -720,6 +720,11 @@ footer ul {
     font-size: 1rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+
+  }
+  .fontfooer {
+    font-size: small;
+    padding-top: 3rem;
 
   }
   .outer {
