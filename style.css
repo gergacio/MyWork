@@ -792,7 +792,7 @@ footer ul {
   }
   .diagonal-me-3{
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(-10deg, var(--green) 50%, var(--green) 50%);
+    background-image: -webkit-linear-gradient(-10deg, var(--yellow) 50%, var(--yellow) 50%);
     height: 1rem;
   }
   .diagonal-intro1{
