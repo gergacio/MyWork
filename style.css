@@ -67,6 +67,7 @@ h3 {
 .link {
     color: var(--aqua);
     text-decoration: none;
+    font-family: var(--mono);
 }
 
 .link:hover {
@@ -77,8 +78,8 @@ h3 {
 img {
     width: 100%;
 }
-.me {
-    width: 70%;
+.me-img {
+    width: 60%;
     margin: 2rem 0 4rem 0;
     padding: 1rem;
     border-left: 1px solid var(--grey);
@@ -117,22 +118,20 @@ img {
   
 }
 .section-white {
-    background-color: var(--kind-0f-white);
-    padding: 2rem;
-}
-.section-white:hover {
     background-color: black;
-    
+    padding: 2rem;
 }
 
-.section-flame {
-    background-color: var(--flame);
+
+.section-ss {
+    background-color: black;
     padding: 2rem;
 }
-.section-flame:hover {
-    background-color: black;
-    
+.section-sm {
+    background-color: var(--black);
+    padding: 2rem;
 }
+
 
 .section-prpleBlue {
     background-color: var(--prpleBlue);
@@ -145,7 +144,6 @@ img {
     background-color: yellow;
     padding: 2rem;
 
- 
 }
 .section-yellow:hover {
     background-color: var(--black);
@@ -159,6 +157,13 @@ img {
 
 
 /* intro styles */
+.logo {
+    color: white;
+    opacity: .3;
+}
+.logo:hover {
+    opacity: 1;
+}
 
 #intro {
     padding: 4rem 1rem 10rem 1rem;
@@ -179,7 +184,7 @@ img {
 }
 
 .name span {
-    font-family: var(--sans);
+    /* font-family: var(--sans); */
     font-size: 4rem;
     color: var(--aqua);
     display: block;
@@ -305,21 +310,7 @@ nav [class*="fa-"]:hover {
     margin: 0;
 }
 
-.edu {
 
-    color: var(--white);
-    font-size: 1.5rem;
-    line-height: 1.5;
-}
-.edu:hover{
-    color: var(--flame);
-    background-color: var(--white);
-    padding: 1rem;
-    border-radius: 30px;
-    font-weight: 900;
-    font-size: 120%;
-
-}
 
 .whitebox {
     padding: 1rem;
@@ -428,13 +419,13 @@ nav [class*="fa-"]:hover {
     border-top: 1px solid var(--grey);
     border-radius: .5rem;
 }
-.projectImgR{
+/* .projectImgR{
     margin: 2rem 0 4rem 0;
     padding: 1rem;
     border-right: 1px solid var(--grey);
     border-top: 1px solid var(--grey);
     border-radius: .5rem;
-}
+} */
 
 
 /* footer section */
@@ -549,7 +540,7 @@ footer ul {
     opacity: 1;
   }
 
-  /* recipe */
+
   .container {
    margin-top: 15rem;
    margin-bottom: 15rem;
@@ -603,7 +594,7 @@ footer ul {
 
   .solarDesc {
     background-color: var(--flame);
-    margin-top: 20rem;
+    margin-top: 30rem;
     margin-bottom: 15rem;
     padding: 1rem;
     font-size: 1.8rem;
@@ -641,21 +632,14 @@ footer ul {
     transform: rotate(20deg);
   }
   
-  .my-img {
-    width: 50%;
-    transition: width 2s;
-  }
-  
-  .my-img:hover {
-    width: 60%;
-  }
+
   .project-img {
     width: 95%;
-    transition: width 2s;
+    transition: width 1s;
   }
   
   .project-img:hover {
-    width: 105%;
+    width: 100%;
   }
   .trnas-desc {
     transform: rotate(2deg);
@@ -669,6 +653,7 @@ footer ul {
     margin-bottom: 5rem;
     font-size: 2.5rem;
     padding: 1rem;
+    font-family: var(--mono);
   }
 
 
@@ -772,6 +757,58 @@ footer ul {
   .outer-about {
     color: var(--black);
   }
+
+  .diagonal-intro{
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(30deg, var(--green) 50%, var(--black) 50%);
+    height: 30rem;
+  }
+  .diagonal-recipe{
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(-60deg, var(--purple) 50%, var(--green) 50%);
+    height: 25rem;
+  }
+  .diagonal-recipe-2{
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(-60deg, var(--green) 50%, black 50%);
+    height: 25rem;
+  }
+  .diagonal-seeker{
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(-60deg, black 50%, var(--black) 50%);
+    height: 25rem;
+  }
+  .diagonal-sm{
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(-60deg, var(--black) 50%, black 50%);
+    height: 25rem;
+  }
+  .diagonal-ss{
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(-80deg, black 50%, var(--purple) 50%);
+    height: 25rem;
+  }
+  .diagonal-ss2{
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(-90deg, var(--purple) 50%, var(--purple) 50%);
+    height: 25rem;
+  }
+  .diagonal-ss3{
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(60deg, var(--purple) 50%, var(--pink) 50%);
+    height: 45rem;
+  }
+  .diagonal-about-intro{
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(30deg, var(--kind-0f-white) 50%, var(--black) 50%);
+    height: 20rem;
+  }
+  .diagonal-about-intro1{
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(-30deg, var(--kind-0f-white) 50%, var(--black) 50%);
+    height: 10rem;
+  }
+  
 
 
 
