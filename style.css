@@ -781,12 +781,12 @@ footer ul {
   }
   .diagonal-me{
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(-80deg, var(--purple) 50%, var(--pink) 50%);
+    background-image: -webkit-linear-gradient(-80deg, var(--purple) 50%, var(--black) 50%);
     height: 40rem;
   }
   .diagonal-me-1{
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(-80deg, var(--pink) 50%, var(--purple) 50%);
+    background-image: -webkit-linear-gradient(-80deg, var(--black) 50%, var(--purple) 50%);
     height: 40rem;
   }
   .diagonal-me-2{
