@@ -58,6 +58,7 @@ body {
     background-color: var(--black);
     color: var(--grey);
     font-size: var(--font-size);
+    z-index: 3;
 }
 
 h1,
@@ -313,7 +314,7 @@ nav [class*="fa-"]:hover {
   flex-flow: column wrap;
   justify-content: center;
   align-items: end;
-  gap: 3rem;
+  gap: 4rem;
   font-size: 2rem;
   padding: 2rem;
   margin-top: 5rem;
@@ -576,6 +577,7 @@ footer ul {
   .container {
    margin-top: 15rem;
    margin-bottom: 15rem;
+ 
   }
   .recipeDesc {
     color: white;
@@ -802,7 +804,7 @@ footer ul {
   }
   .diagonal-me-1{
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(-80deg, var(--black) 50%, var(--purple) 50%);
+    background-image: -webkit-linear-gradient(80deg, var(--purple) 50%, var(--black) 50%);
     height: 40rem;
   }
   .diagonal-me-2{
@@ -839,7 +841,7 @@ footer ul {
   }
   .diagonal-recipe-2{
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(-80deg, var(--green) 50%, black 50%);
+    background-image: -webkit-linear-gradient(80deg, black 50%, var(--green) 50%);
     height: 40rem;
   }
   .diagonal-seeker{
@@ -849,7 +851,7 @@ footer ul {
   }
   .diagonal-sm{
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(-80deg, var(--black) 50%, black 50%);
+    background-image: -webkit-linear-gradient(80deg, black 50%, var(--black) 50%);
     height: 40rem;
   }
   .diagonal-ss{
@@ -1055,4 +1057,25 @@ footer ul {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
+
+
+/* 
+.imageRotate {
   
+    -webkit-animation:spin 12s linear infinite;
+    -moz-animation:spin 12s linear infinite;
+    animation:spin 12s linear infinite;
+}
+
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+} */
