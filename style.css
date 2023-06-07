@@ -183,10 +183,11 @@ h3 {
 /* intro styles */
 .logo {
     color: white;
-    opacity: .3;
+opacity: .8;
+    font-family: var(--mono);
 }
 .logo:hover {
-    opacity: 1;
+opacity: .9;
 }
 
 #intro {
@@ -307,6 +308,21 @@ nav [class*="fa-"]:hover {
     background-color: var(--hotmag);
 }
 
+.me-desc {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: end;
+  gap: 3rem;
+  font-size: 2rem;
+  padding: 2rem;
+  margin-top: 5rem;
+  opacity: 0.9;
+}
+.me-desc:hover {
+  opacity: 1;
+}
+
 
 /* projects section */
 
@@ -389,13 +405,13 @@ nav [class*="fa-"]:hover {
     margin-top: 5rem;
     padding: 5rem;
     list-style-type: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: var(--mono);
     display: flex;
     flex-flow: column;
     justify-content: center;
     gap: 2.5rem;
-    opacity: 0.5;
+    opacity: 0.2;
    
 }
 .tech-list-a:hover {
@@ -748,7 +764,7 @@ footer ul {
   .outer {
     display: flex;
     flex-flow: row;
-    justify-content: start;
+    justify-content: end;
     padding-top: 2rem;
     padding-bottom: 2rem;
 
@@ -839,7 +855,7 @@ footer ul {
   .diagonal-ss{
     background-color: #013A6B;
     background-image: -webkit-linear-gradient(-80deg, black 50%, var(--purple) 50%);
-    height: 20rem;
+    height: 40rem;
   }
   .diagonal-ss2{
     background-color: #013A6B;
@@ -858,7 +874,7 @@ footer ul {
   }
   .diagonal-ss4{
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(-80deg, var(--purple) 50%, var(--pink) 50%);
+    background-image: -webkit-linear-gradient(80deg, var(--pink) 50%, var(--purple) 50%);
     height: 20rem;
   }
   .diagonal-about-intro{
