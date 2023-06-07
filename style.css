@@ -8,6 +8,7 @@
 
 :root {
     /* --black: #171321; */
+    --blue: rgb(0, 158, 242);
     --dkblue: #0d314b;
     --plum: #4b0d49;
     --hotmag: #ff17e4;
@@ -48,7 +49,6 @@ html {
     box-sizing: inherit;
 }
 
-
 /* generic styles for the page */
 
 body {
@@ -85,14 +85,10 @@ h3 {
 
 }
 
-
 .seeker-img {
     width: 120%;
     margin: 2rem 0 6rem 0;
     padding: 1rem;
-
-
-
 }
 
 .me-img {
@@ -108,16 +104,12 @@ h3 {
     opacity: 1;
 }
 
-
 /* background color divs */
 .section-kowhite {
     background-color: var(--kind-0f-white);
  
     margin-bottom: 15rem;
 }
-
-
-
 
 .section-purple {
     background-color: var(--purple);
@@ -176,19 +168,14 @@ h3 {
 
 }
 
-
-
-
-
-
 /* intro styles */
 .logo {
-    color: white;
-opacity: .8;
+
+ opacity: .8;
     font-family: var(--mono);
 }
 .logo:hover {
-opacity: .9;
+opacity: 1;
 }
 
 #intro {
@@ -212,9 +199,13 @@ opacity: .9;
 .name span {
     /* font-family: var(--sans); */
     font-size: 4rem;
-    color: var(--greens);
+    opacity: .8;
     display: block;
     font-weight: 300;
+
+}
+.name span:hover {
+  opacity: 1;
 }
 
 #intro h2 {
@@ -282,7 +273,7 @@ nav h1 [class*="fa-"] {
 }
 
 nav a {
-    color: white;
+    color: var(--grey);
     text-decoration: none;
     display: block;
 }
@@ -292,7 +283,7 @@ nav [class*="fa-"]:hover {
    
 }
 .navLink:hover {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid var(--grey);
 }
 
 .button {
@@ -424,9 +415,9 @@ nav [class*="fa-"]:hover {
 
 }
 .tech-list-sm {
-    padding-top: 3rem;
+    padding: 3rem;
     list-style-type: none;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-family: var(--mono);
     display: flex;
     flex-flow: column;
@@ -657,6 +648,7 @@ footer ul {
     padding: 8rem;
     font-size: 3rem;
 
+
 }
 .tools {
     padding-top: 2rem;
@@ -799,7 +791,12 @@ footer ul {
   }
   .diagonal-me{
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(-80deg, var(--purple) 50%, var(--black) 50%);
+    background-image: -webkit-linear-gradient(45deg, var(--green) 50%, var(--pink) 50%);
+    height: 1rem;
+  }
+  .diagonal-me-flip{
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(-80deg, var(--black) 50%, var(--purple) 50%);
     height: 40rem;
   }
   .diagonal-me-1{
@@ -896,7 +893,7 @@ footer ul {
 
   
 
-  @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+  /* @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
   * {
     margin: 0;
     padding: 0;
@@ -908,7 +905,7 @@ footer ul {
     -o-font-smoothing: antialiased;
 
     text-rendering: optimizeLegibility;
-  }
+  } */
 
   
   .contact-form {
@@ -985,27 +982,6 @@ footer ul {
     resize: none;
   }
   
-  /* #contactf button[type="submit"] {
-    cursor: pointer;
-    width: 100%;
-    border: none;
-    background: var(--black);
-    color: #FFF;
-    margin: 0 0 5px;
-    padding: 10px;
-    font-size: 15px;
-  }
-  
-  #contactf button[type="submit"]:hover {
-    background: var(--black);
-    -webkit-transition: background 0.3s ease-in-out;
-    -moz-transition: background 0.3s ease-in-out;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  #contactf button[type="submit"]:active {
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
-  } */
   
   .copyright {
     text-align: center;
@@ -1058,24 +1034,37 @@ footer ul {
     transform: translateY(4px);
   }
 
+  /* flip */
+  .flip-card {
+    background-color: transparent;
+    margin-top: 5rem;
 
-/* 
-.imageRotate {
+  }
   
-    -webkit-animation:spin 12s linear infinite;
-    -moz-animation:spin 12s linear infinite;
-    animation:spin 12s linear infinite;
-}
+  .flip-card-inner {
 
-@-moz-keyframes spin { 
-    100% { -moz-transform: rotate(360deg); } 
-}
-@-webkit-keyframes spin { 
-    100% { -webkit-transform: rotate(360deg); } 
-}
-@keyframes spin { 
-    100% { 
-        -webkit-transform: rotate(360deg); 
-        transform:rotate(360deg); 
-    } 
-} */
+    transition: transform 2s;
+    transform-style: preserve-3d;
+    position: relative;
+  }
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    /* position: absolute; */
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+
+    transform: rotateX(180deg);
+  }
+
+

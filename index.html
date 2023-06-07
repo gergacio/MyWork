@@ -10,7 +10,7 @@
     
     <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/025368e06c.js" crossorigin="anonymous"></script>
-    <title>Georgi Gospodinov's Portfolio Website</title>
+    <title>Gospodinov Portfolio Website</title>
 </head>
 <body>
     <nav>
@@ -18,7 +18,7 @@
             <li><h1><span class="logo">Gospodinov </span><span>🇧🇬</span> </h1></li>
             <li><a class="navLink" href="#portfolio"> Portfolio</a></li>
             <li><a class="navLink" href="#about"> About</a></li>
-            <li><a class="navLink" href="#contact">Contacts</a></li>
+            <li><a class="navLink" href="#contactf">Contacts</a></li>
 
             <!-- <li><a class="link" href="https://www.linkedin.com/in/georgi-georgiev-a07534ab/" target="_blank"><span class="fa-brands fa-linkedin" aria-hidden="true"></span>
             <span class="sr-only">LinkedIn</span></a></li>
@@ -29,12 +29,13 @@
         </ul>
     
     </nav>
+
     <div class="diagonal-me-2"></div>
  
-        <div class="diagonal-top wrap">
-
-   
+    <div class="wrapper">
+        <div class="diagonal-top">
     </div>
+
  
     <section id="intro">
         <!-- <div class="diagonal-me"></div> -->
@@ -51,16 +52,33 @@
         </div>
  
     </section>
-    </div>
+
     <div class="section-purple" >
-        <!-- <div class="diagonal-me-2"></div> -->
+
         <div class="diagonal-intro1"></div>
  
         <section id="projects"> 
         
             <div id="about"><p class="proudof">ABOUT</p></div>
                 
-            <div class="diagonal-me"></div>
+          
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="diagonal-me"></div>
+
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="diagonal-me-flip"></div>
+
+                    </div>
+                 
+                 
+
+                </div>
+          
+
+            </div>
             <div class="diagonal-me-2"></div>
     
             <div class="section-about">
@@ -143,6 +161,8 @@
                         <ul class="tech-list-sm">
                             <li>Technologies used include</li>
                             <li></li>
+                            <li></li>
+                            <li></li>
                             <li>Database MongoDB Atlas | Mongoose</li>
                             <li>Front-end development HTML | CSS | React</li> 
                             <li>Back-end development ExpressJS | Node.js</li>
@@ -157,7 +177,7 @@
                     </article>
     
                </div>
-               <div class="diagonal-recipe-2"></div>
+               <div class="diagonal-recipe-2 rotate"></div>
                <!-- <div class="diagonal-me-2"></div> -->
 
                    <!-- Wellbeing apps   ---------------------------------------------------------->
@@ -174,6 +194,8 @@
                        
                             <ul class="tech-list-sm">
                                 <li>Technologies used include</li>
+                                <li></li>
+                                <li></li>
                                 <li></li>
                                 <li>Database MongoDB Atlas | Mongoose</li>
                                 <li>Front-end development HTML | CSS | React</li> 
@@ -215,6 +237,8 @@
                             <ul class="tech-list-sm">
                                  <li>Technologies used include</li>
                                  <li></li>
+                                 <li></li>
+                                 <li></li>
                                  <li>Database PostgreSQL</li>
                                  <li> HTTP & API development Spring Boot</li> 
                                  <li>Front-end development HTML | CSS | JS | React | Ant Design | Framer Motion</li> 
@@ -251,6 +275,8 @@
                     <ul class="tech-list-sm">
                         <li>Technologies used include</li>
                         <li></li>
+                        <li></li>
+                        <li></li>
                         <li>Database MongoDB</li>
                         <li>Front-end development HTML | CSS | React | Framer Motion</li> 
                         <li>Back-end development ExpressJS | Node.js</li>
@@ -275,62 +301,32 @@
         </section>
      
     </div>
+
     <div class="diagonal-ss4"></div>
   
-    <!-- <div class="gradient"></div> -->
-    <!-- <div class="p-p-gradient"></div>  -->
     <div class="diagonal-ss3"></div>
+
     <div class="contact" >
-
-        <section >
-               <!-- <h3>Contact me</h3> -->
-         
-                <!-- <p>I'm always interested in hearing about new coding opportunities or instructional design work.</p>     -->
+            <div class="contact-form">  
+                <form id="contactf" action="mailto:ggeorgeuk@gmail.com" target="_newtab" method="post">
+                <h3> Contact Form</h3>
+            
+                <fieldset>
+                <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+                </fieldset>
+                <fieldset>
+                <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                </fieldset>
         
-                    <!-- <ul class="contact-list">
-                        <li>
-                          <a class="contact-link" href="https://www.linkedin.com/in/georgi-georgiev-a07534ab/" target="_blank">
-                            <span class="fab fa-linkedin" aria-hidden="true"></span>
-                            <span class="sr-only">LinkedIn</span>
-                          </a>
-                        </li> 
-                        <li>
-                          <a class="contact-link" href="mailto:ggeorgeuk@gmail.com">
-                            <span class="fas fa-envelope" aria-hidden="true"></span>
-                            <span class="sr-only">Email</span>
-                          </a>
-                    
-                        </li>
-                      
-                      </ul> -->
-                   
-               
-                      <div class="contact-form" id="contact">  
-                        <form id="contactf" action="mailto:ggeorgeuk@gmail.com" method="post">
-                          <h3> Contact Form</h3>
-                        
-                          <fieldset>
-                            <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-                          </fieldset>
-                          <fieldset>
-                            <input placeholder="Your Email Address" type="email" tabindex="2" required>
-                          </fieldset>
-                  
-                          </fieldset>
-                          <fieldset>
-                            <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
-                          </fieldset>
-                          <fieldset>
-                            <button class="button" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-                          </fieldset>
-                         </form>
-                      </div>
-
-
-             
-
-        </section>
-
+                </fieldset>
+                <fieldset>
+                <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+                </fieldset>
+                <fieldset>
+                <button class="button" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                </fieldset>
+                </form>
+            </div>
     </div>
  
     <div class="diagonal-ss5"></div>
@@ -344,7 +340,7 @@
                         <li><a class="link" href="#intro">Home</a></li>
                         <li><a class="link" href="#portfolio">Portfolio</a></li>
                         <li><a class="link" href="#about">About</a></li>
-                        <li><a class="link" href="#contact">Contacts</a></li>
+                        <li><a class="link" href="#contactf">Contacts</a></li>
                     </ul>           
                 </div>
                 <div>
