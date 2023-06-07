@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
     <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/025368e06c.js" crossorigin="anonymous"></script>
     <title>Georgi Gospodinov's Portfolio Website</title>
@@ -14,34 +15,41 @@
 <body>
     <nav>
         <ul>
-            <li><h1>
-                <a href="index.html">
-                   
-                    <span class="link logo">Gospodinov </span><span>🇧🇬</span>
-                </a>
-            </h1></li>
-            <li><a class="navLink" href="#portfolio">Portfolio</a></li>
-            <li><a class="navLink" href="#about">About</a></li>
+            <li><h1><span class="logo">Gospodinov </span><span>🇧🇬</span> </h1></li>
+            <li><a class="navLink" href="#portfolio"> Portfolio</a></li>
+            <li><a class="navLink" href="#about"> About</a></li>
             <li><a class="navLink" href="#contact">Contacts</a></li>
 
-            <li><a class="link" href="https://www.linkedin.com/in/georgi-georgiev-a07534ab/" target="_blank"><span class="fa-brands fa-linkedin" aria-hidden="true"></span>
+            <!-- <li><a class="link" href="https://www.linkedin.com/in/georgi-georgiev-a07534ab/" target="_blank"><span class="fa-brands fa-linkedin" aria-hidden="true"></span>
             <span class="sr-only">LinkedIn</span></a></li>
 
             <li><a class="link" href="https://github.com/gergacio" target="_blank"><span class="fa-brands fa-github" aria-hidden="true"></span> 
-                <span class="sr-only">GitHub</span></a></li>
+                <span class="sr-only">GitHub</span></a></li> -->
             <!-- <li><a class="button">Resume</a></li> -->
         </ul>
     
     </nav>
     <div class="diagonal-me-2"></div>
-    <div class="diagonal-top"></div>
+ 
+        <div class="diagonal-top wrap">
+
+   
+    </div>
+ 
     <section id="intro">
         <!-- <div class="diagonal-me"></div> -->
    
         <p class="name">Hi, my name is <span>Georgi Gospodinov.</span></p> 
-        <h3>I create the web.</h3>
-        <p>I'm software engineer specializing in the <a class="yellow link" href="https://tc39.es/ecma262/" target=”_blank”>JavaScript</a>.</p>
-        <p>Currently, I'm volunteering at <a class="link" href="https://www.scottishtecharmy.org/" target=”_blank”>Scotish Tech Army</a>.</p>
+        <div class="me-desc">
+            <h3>I create the web.</h3>
+            <p>I'm software engineer specializing in <a class="yellow link" href="https://tc39.es/ecma262/" target=”_blank”> JavaScript</a>.</p>
+            <p>Currently, I'm volunteering  at<a class="link" href="https://www.scottishtecharmy.org/" target=”_blank”> Scotish Tech Army</a>.
+                <!-- <a class="link" href="https://github.com/Scottish-Tech-Army/dressCode" target="_blank"><span class="fa-brands fa-github" aria-hidden="true"></span> 
+                    <span class="sr-only">GitHub</span></a> -->
+            </p>
+
+        </div>
+ 
     </section>
     </div>
     <div class="section-purple" >
@@ -86,14 +94,14 @@
                                 <li></li>
                                 <li></li>
                               <li>Project Management Tools - Jira | Trello</li>
-                              <li>Databases - MySQL | PostgreSQL | MongoDB | H2</li>
-                              <li>Code Editor/IDE - Visual Studio Code | Intellij IDEA </li> 
-                              <li>Programming Languages - SQL | JavaScript | Java</li>                 
+                              <li>Databases - MySQL | PostgreSQL | MongoDB</li>
+                              <li>Code Editor/IDE - VS Code | IntelliJ </li> 
+                              <li>Programming Languages - SQL | JS | Java</li>                 
                               <li>Front-end Technologies - HTML | CSS | React</li>  
                               <li>Web Frameworks - Express | Spring Boot </li> 
                               <li>Testing Frameworks - Mocha | Jest | JUnit 5 </li>
                               <li>Version Control Software Tools - Git </li>
-                              <li>Cloud Computing - AWS  S3 | RDS | Elastic Beanstalk</li>
+                              <li>Cloud Computing - AWS </li>
                               <li>Containerisation Platform - Docker </li>    
       
                             </ul>    
@@ -104,8 +112,8 @@
                  
                   
                      <img class="me-img" alt="me-img" src="./path/images/me.jpg" />
-                     <div class="diagonal-me-3"></div>
-                     <div class="diagonal-me-2"></div>
+                     <!-- <div class="diagonal-me-3"></div> -->
+                     <!-- <div class="diagonal-me-2"></div> -->
                                    
                 </article>
               
@@ -126,7 +134,7 @@
                     <div class="text" >
                         <h2>Latest Project</hw>
                         <h2>Bulgarian Cuisine App</h2>
-                        <p class="recipeDesc trnas-desc">BC App is a online provider of information about traditional Bulgarian cuisine, food, recipes, restaurants <a class="link" href="https://github.com/gergacio/recipeApp" target="_blank"><span class="fa-brands fa-github" aria-hidden="true"></span> 
+                        <p class="recipeDesc trnas-desc">BC App is an online provider of information about traditional Bulgarian cuisine, food, recipes, restaurants <a class="link" href="https://github.com/gergacio/recipeApp" target="_blank"><span class="fa-brands fa-github" aria-hidden="true"></span> 
                             <span class="sr-only">GitHub</span></a> 
                         </p>
 
@@ -135,17 +143,17 @@
                         <ul class="tech-list-sm">
                             <li>Technologies used include</li>
                             <li></li>
-                            <li>Database MongoDB</li>
-                            <li>Front-end development React</li> 
-                            <li>Back-end development Node.js</li>
+                            <li>Database MongoDB Atlas | Mongoose</li>
+                            <li>Front-end development HTML | CSS | React</li> 
+                            <li>Back-end development ExpressJS | Node.js</li>
                             <li>Code Editor Visual Studio Code</li>
                         </ul>
                        </div>
                        
                     </div>  
                      <img class="projectImg project-img" src="./path/images/bgfood1.png" alt="SolarSystem." />
-                     <div class="diagonal-me-3"></div>
-                     <div class="diagonal-me-2"></div>
+                     <!-- <div class="diagonal-me-3"></div>
+                     <div class="diagonal-me-2"></div> -->
                     </article>
     
                </div>
@@ -167,9 +175,9 @@
                             <ul class="tech-list-sm">
                                 <li>Technologies used include</li>
                                 <li></li>
-                                <li>Database MongoDB</li>
-                                <li>Front-end development React</li> 
-                                <li>Back-end development Node.js</li>
+                                <li>Database MongoDB Atlas | Mongoose</li>
+                                <li>Front-end development HTML | CSS | React</li> 
+                                <li>Back-end development ExpressJS | Node.js</li>
                                 <li>Code Editor Visual Studio Code</li>
                         
                             </ul>
@@ -180,8 +188,8 @@
                        
              <img class="seeker-img" alt="globe" src="./path/images/globe.png" />
           
-             <div class="diagonal-me-3"></div>
-             <div class="diagonal-me-2"></div>
+             <!-- <div class="diagonal-me-3"></div>
+             <div class="diagonal-me-2"></div> -->
            
                    
                 </article>
@@ -222,8 +230,8 @@
         
     
                     <img class="projectImg project-img" src="./path/images/in7min.png" alt="In7Minutes." />
-                    <div class="diagonal-me-3"></div>
-                    <div class="diagonal-me-2"></div>
+                    <!-- <div class="diagonal-me-3"></div>
+                    <div class="diagonal-me-2"></div> -->
                 </article>
             </div>
             <div class="diagonal-sm"></div>
@@ -235,7 +243,8 @@
                 <div class="text" >
                     <h2>Project</h2>
                     <h2>Solar System App</h2>
-                    <p class="solarDesc trnas-desc">Educational App give you facts and information about planetary system around the Sun.  <a class="link" href="https://github.com/gergacio/solarSystemApp" target="_blank"><span class="fa-brands fa-github" aria-hidden="true"></span> 
+                    <p class="solarDesc trnas-desc">Educational App give you facts and information about planetary system around the Sun. 
+                         <a class="link" href="https://github.com/gergacio/solarSystemApp" target="_blank"><span class="fa-brands fa-github" aria-hidden="true"></span> 
                         <span class="sr-only">GitHub</span></a> </p>
 
                    <div class="smTech">
@@ -243,35 +252,42 @@
                         <li>Technologies used include</li>
                         <li></li>
                         <li>Database MongoDB</li>
-                        <li>Front-end development React</li> 
-                        <li>Back-end development Node.js</li>
+                        <li>Front-end development HTML | CSS | React | Framer Motion</li> 
+                        <li>Back-end development ExpressJS | Node.js</li>
                         <li>Code Editor Visual Studio Code</li>
                     </ul>
                    </div>
+               
                    
-                </div>       
-                <img class="sun-img" src="./path/images/spinSun.png" alt="SolarSystem." />
-                <div class="diagonal-me-3"></div>
-                <div class="diagonal-me-2"></div>
+                </div>  
+            
+                    <img class="sun-img " src="./path/images/spinSun.png" alt="SolarSystem." />
+     
+                <!-- <div class="diagonal-me-3"></div>
+                <div class="diagonal-me-2"></div> -->
                 </article>
 
            </div>
+           <div class="diagonal-me-2"></div>
            <div class="diagonal-ss"></div>
            <div class="diagonal-ss2"></div>
   
         </section>
      
     </div>
+    <div class="diagonal-ss4"></div>
   
-    <div class="gradient"></div>
-    <div class="p-p-gradient"></div>
-    <div class="contact" id="contact">
-        <section>
-               <h3>Contact me</h3>
+    <!-- <div class="gradient"></div> -->
+    <!-- <div class="p-p-gradient"></div>  -->
+    <div class="diagonal-ss3"></div>
+    <div class="contact" >
+
+        <section >
+               <!-- <h3>Contact me</h3> -->
          
-                <p>I'm always interested in hearing about new coding opportunities or instructional design work.</p>    
+                <!-- <p>I'm always interested in hearing about new coding opportunities or instructional design work.</p>     -->
         
-                    <ul class="contact-list">
+                    <!-- <ul class="contact-list">
                         <li>
                           <a class="contact-link" href="https://www.linkedin.com/in/georgi-georgiev-a07534ab/" target="_blank">
                             <span class="fab fa-linkedin" aria-hidden="true"></span>
@@ -280,15 +296,17 @@
                         </li> 
                         <li>
                           <a class="contact-link" href="mailto:ggeorgeuk@gmail.com">
-                            <!-- <span class="fas fa-envelope" aria-hidden="true"></span> -->
+                            <span class="fas fa-envelope" aria-hidden="true"></span>
                             <span class="sr-only">Email</span>
                           </a>
                     
                         </li>
-                        <li><a href="mailto:ggeorgeuk@gmail.com">Email Us</a>  </li>
-                      </ul>
-                      <!-- <div class="contact-form">  
-                        <form id="contact" action="mailto:ggeorgeuk@gmail.com" method="post">
+                      
+                      </ul> -->
+                   
+               
+                      <div class="contact-form" id="contact">  
+                        <form id="contactf" action="mailto:ggeorgeuk@gmail.com" method="post">
                           <h3> Contact Form</h3>
                         
                           <fieldset>
@@ -303,10 +321,10 @@
                             <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
                           </fieldset>
                           <fieldset>
-                            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                            <button class="button" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
                           </fieldset>
                          </form>
-                      </div> -->
+                      </div>
 
 
              
@@ -315,21 +333,31 @@
 
     </div>
  
-
-     <div class="diagonal-ss3"></div>
+    <div class="diagonal-ss5"></div>
+  
     <footer >
         <div class="outer">
             <div class="footer">          
              <div>
                     <p>Menu</p>
                     <ul class="footer-list">
-                        <li>  <span> <a class="link" href="index.html">Home</a></span> </li>
-                        <li><span><a class="link" href="#portfolio">Portfolio</a></span></li>
+                        <li><a class="link" href="#intro">Home</a></li>
+                        <li><a class="link" href="#portfolio">Portfolio</a></li>
                         <li><a class="link" href="#about">About</a></li>
                         <li><a class="link" href="#contact">Contacts</a></li>
                     </ul>           
                 </div>
+                <div>
+                    <p>Social media</p>
+                    <ul class="footer-list">
+                     
+                    <li><a class="link" href="https://www.linkedin.com/in/georgi-georgiev-a07534ab/" target="_blank"><span class="fa-brands fa-linkedin" aria-hidden="true"></span>
+                     <span class="sr-only">LinkedIn</span></a></li>
     
+                   <li><a class="link" href="https://github.com/gergacio" target="_blank"><span class="fa-brands fa-github" aria-hidden="true"></span> 
+                    <span class="sr-only">GitHub</span></a></li>
+                    </ul>
+                </div>
                 <div>
                     <p>Services</p>
                     <ul class="footer-list">
@@ -337,9 +365,6 @@
                         <li>Logo creation</li>
                     </ul>
                    
-                </div>
-                <div>
-                    <p>Blog</p>
                 </div>
             </div>
         </div>

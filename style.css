@@ -58,6 +58,7 @@ body {
     background-color: var(--black);
     color: var(--grey);
     font-size: var(--font-size);
+    z-index: 3;
 }
 
 h1,
@@ -183,10 +184,11 @@ h3 {
 /* intro styles */
 .logo {
     color: white;
-    opacity: .3;
+opacity: .8;
+    font-family: var(--mono);
 }
 .logo:hover {
-    opacity: 1;
+opacity: .9;
 }
 
 #intro {
@@ -307,6 +309,21 @@ nav [class*="fa-"]:hover {
     background-color: var(--hotmag);
 }
 
+.me-desc {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: end;
+  gap: 4rem;
+  font-size: 2rem;
+  padding: 2rem;
+  margin-top: 5rem;
+  opacity: 0.9;
+}
+.me-desc:hover {
+  opacity: 1;
+}
+
 
 /* projects section */
 
@@ -389,13 +406,13 @@ nav [class*="fa-"]:hover {
     margin-top: 5rem;
     padding: 5rem;
     list-style-type: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: var(--mono);
     display: flex;
     flex-flow: column;
     justify-content: center;
     gap: 2.5rem;
-    opacity: 0.5;
+    opacity: 0.2;
    
 }
 .tech-list-a:hover {
@@ -560,6 +577,7 @@ footer ul {
   .container {
    margin-top: 15rem;
    margin-bottom: 15rem;
+ 
   }
   .recipeDesc {
     color: white;
@@ -748,7 +766,7 @@ footer ul {
   .outer {
     display: flex;
     flex-flow: row;
-    justify-content: start;
+    justify-content: end;
     padding-top: 2rem;
     padding-bottom: 2rem;
 
@@ -781,12 +799,12 @@ footer ul {
   }
   .diagonal-me{
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(-80deg, var(--purple) 50%, var(--pink) 50%);
+    background-image: -webkit-linear-gradient(-80deg, var(--purple) 50%, var(--black) 50%);
     height: 40rem;
   }
   .diagonal-me-1{
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(-80deg, var(--pink) 50%, var(--purple) 50%);
+    background-image: -webkit-linear-gradient(80deg, var(--purple) 50%, var(--black) 50%);
     height: 40rem;
   }
   .diagonal-me-2{
@@ -823,7 +841,7 @@ footer ul {
   }
   .diagonal-recipe-2{
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(-80deg, var(--green) 50%, black 50%);
+    background-image: -webkit-linear-gradient(80deg, black 50%, var(--green) 50%);
     height: 40rem;
   }
   .diagonal-seeker{
@@ -833,7 +851,7 @@ footer ul {
   }
   .diagonal-sm{
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(-80deg, var(--black) 50%, black 50%);
+    background-image: -webkit-linear-gradient(80deg, black 50%, var(--black) 50%);
     height: 40rem;
   }
   .diagonal-ss{
@@ -844,12 +862,22 @@ footer ul {
   .diagonal-ss2{
     background-color: #013A6B;
     background-image: -webkit-linear-gradient(-90deg, var(--purple) 50%, var(--purple) 50%);
-    height: 40rem;
+    height: 20rem;
   }
   .diagonal-ss3{
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(50deg, var(--purple) 50%, var(--pink) 50%);
-    height: 60rem;
+    background-image: -webkit-linear-gradient(50deg, var(--pink) 50%, var(--pink) 50%);
+    height: 10rem;
+  }
+  .diagonal-ss5{
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(-50deg, var(--pink) 50%, var(--black) 50%);
+    height: 20rem;
+  }
+  .diagonal-ss4{
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(80deg, var(--pink) 50%, var(--purple) 50%);
+    height: 20rem;
   }
   .diagonal-about-intro{
     background-color: #013A6B;
@@ -867,7 +895,7 @@ footer ul {
   
 
   
-/* 
+
   @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
   * {
     margin: 0;
@@ -890,30 +918,30 @@ footer ul {
     position: relative;
   }
   
-  #contact input[type="text"],
-  #contact input[type="email"],
-  #contact input[type="tel"],
-  #contact input[type="url"],
-  #contact textarea,
-  #contact button[type="submit"] {
+  #contactf input[type="text"],
+  #contactf input[type="email"],
+  #contactf input[type="tel"],
+  #contactf input[type="url"],
+  #contactf textarea,
+  #contactf button[type="submit"] {
     font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
   }
   
-  #contact {
+  #contactf {
     background: #F9F9F9;
     padding: 25px;
     margin: 150px 0;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   }
   
-  #contact h3 {
+  #contactf h3 {
     display: block;
     font-size: 30px;
     font-weight: 300;
     margin-bottom: 10px;
   }
   
-  #contact h4 {
+  #contactf h4 {
     margin: 5px 0 15px;
     display: block;
     font-size: 13px;
@@ -928,11 +956,11 @@ footer ul {
     width: 100%;
   }
   
-  #contact input[type="text"],
-  #contact input[type="email"],
-  #contact input[type="tel"],
-  #contact input[type="url"],
-  #contact textarea {
+  #contactf input[type="text"],
+  #contactf input[type="email"],
+  #contactf input[type="tel"],
+  #contactf input[type="url"],
+  #contactf textarea {
     width: 100%;
     border: 1px solid #ccc;
     background: #FFF;
@@ -940,24 +968,24 @@ footer ul {
     padding: 10px;
   }
   
-  #contact input[type="text"]:hover,
-  #contact input[type="email"]:hover,
-  #contact input[type="tel"]:hover,
-  #contact input[type="url"]:hover,
-  #contact textarea:hover {
+  #contactf input[type="text"]:hover,
+  #contactf input[type="email"]:hover,
+  #contactf input[type="tel"]:hover,
+  #contactf input[type="url"]:hover,
+  #contactf textarea:hover {
     -webkit-transition: border-color 0.3s ease-in-out;
     -moz-transition: border-color 0.3s ease-in-out;
     transition: border-color 0.3s ease-in-out;
     border: 1px solid #aaa;
   }
   
-  #contact textarea {
+  #contactf textarea {
     height: 100px;
     max-width: 100%;
     resize: none;
   }
   
-  #contact button[type="submit"] {
+  /* #contactf button[type="submit"] {
     cursor: pointer;
     width: 100%;
     border: none;
@@ -968,23 +996,23 @@ footer ul {
     font-size: 15px;
   }
   
-  #contact button[type="submit"]:hover {
-    background: var(--grey);
+  #contactf button[type="submit"]:hover {
+    background: var(--black);
     -webkit-transition: background 0.3s ease-in-out;
     -moz-transition: background 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
   }
   
-  #contact button[type="submit"]:active {
+  #contactf button[type="submit"]:active {
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
-  }
+  } */
   
   .copyright {
     text-align: center;
   }
   
-  #contact input:focus,
-  #contact textarea:focus {
+  #contactf input:focus,
+  #contactf textarea:focus {
     outline: 0;
     border: 1px solid #aaa;
   }
@@ -1003,18 +1031,51 @@ footer ul {
   
   :-ms-input-placeholder {
     color: #888;
-  } */
+  } 
 
+  .button {
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: var(--black);
+    background-color: #e1e1e1;
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem #999;
   
+  }
+  
+  .button:hover {
+    color: black;
+    background-color: #f1f1f1
+  }
+  
+  .button:active {
+    background-color: #f6f6f6;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 
 
+/* 
+.imageRotate {
+  
+    -webkit-animation:spin 12s linear infinite;
+    -moz-animation:spin 12s linear infinite;
+    animation:spin 12s linear infinite;
+}
 
-
-
-
-
-
-
-
-
-
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+} */
