@@ -645,7 +645,7 @@ footer ul {
 .proudof {
  
     font-family: var(--mono);
-    padding: 8rem;
+    padding: 5rem;
     font-size: 3rem;
 
 
@@ -792,7 +792,7 @@ footer ul {
   .diagonal-me{
     background-color: #013A6B;
     background-image: -webkit-linear-gradient(45deg, var(--green) 50%, var(--pink) 50%);
-    height: 1rem;
+    height: .3rem;
   }
   .diagonal-me-flip{
     background-color: #013A6B;
@@ -1058,8 +1058,10 @@ footer ul {
   }
   
   .flip-card-front {
-    background-color: #bbb;
-    color: black;
+    background-color: var(--purple);
+    color: white;
+    margin-top: 5rem;
+
   }
   
   .flip-card-back {
