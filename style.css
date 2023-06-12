@@ -221,7 +221,8 @@ h3 {
     margin: 0 auto;
     padding: 5rem; 
     font-weight: 900;
-    background-color: var(--pink);
+    background-color: whitesmoke;
+    color: black;
 
     
 }
@@ -400,21 +401,17 @@ nav [class*="fa-"]:hover {
     flex-flow: column;
     justify-content: center;
     gap: 2.5rem;
-    opacity: .7;
-    border: 1px solid #505050;
+ 
+    border: 1px solid lightgray;
     border-radius: .2rem;
-    box-shadow: 10px 10px #505050;
+    box-shadow: 10px 10px lightgray;
+
+    color: black;
+    background-color: white;
 
    
 }
-.tech-list-a:hover {
-  
-    /* border-left: 0.5px solid var(--grey); */
-  
-    opacity: 1;
-   
 
-}
 .tech-list-sm {
     padding: 3rem;
     list-style-type: none;
@@ -424,19 +421,17 @@ nav [class*="fa-"]:hover {
     flex-flow: column;
     justify-content: center;
     gap: 2.5rem;
-    opacity: .8;
-    /* box-shadow: 0 .2rem .4rem 0 rgba(255,255,255,255.5); */
-    border: 1px solid #505050;
+  
+    border: 1px solid lightgray;
     border-radius: .2rem;
-    box-shadow: 10px 10px #505050;
+    box-shadow: 10px 10px lightgray;
+
+    color: black;
+    background-color: white;
 
    
 }
-.tech-list-sm:hover {
-    /* border-top: .5px solid var(--grey); */
-    opacity: 1;
-   
-}
+
 .desc-list {
     padding-top: 2rem;
     padding-bottom: 5rem;
@@ -653,6 +648,8 @@ footer ul {
     font-family: var(--mono);
     padding: 5rem;
     font-size: 3rem;
+    background-color: white;
+    color: black;
 
 
 }
@@ -825,7 +822,7 @@ footer ul {
   }
   .diagonal-me-2{
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(-10deg, var(--grey) 50%, var(--grey) 50%);
+    background-image: -webkit-linear-gradient(-10deg, white 50%, white 50%);
     height: .1rem;
   }
   .diagonal-me-3{
@@ -862,8 +859,8 @@ footer ul {
   }
   .diagonal-seeker{
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(-80deg, black 50%, var(--black) 50%);
-    height: 40rem;
+    background-image: -webkit-linear-gradient(70deg, yellow 70%, white 30%);
+    height: 10rem;
   }
   .diagonal-sm{
     background-color: #013A6B;
@@ -882,7 +879,7 @@ footer ul {
   }
   .diagonal-ss3{
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(50deg, var(--pink) 50%, var(--pink) 50%);
+    background-image: -webkit-linear-gradient(50deg, whitesmoke 50%, whitesmoke 50%);
     height: 20rem;
   }
   .diagonal-ss5{
@@ -892,7 +889,7 @@ footer ul {
   }
   .diagonal-ss4{
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(80deg, var(--pink) 50%, var(--black) 50%);
+    background-image: -webkit-linear-gradient(80deg, whitesmoke 50%, lightgray 50%);
     height: 20rem;
   }
   .diagonal-about-intro{
