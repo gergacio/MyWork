@@ -822,7 +822,7 @@ footer ul {
   }
   .diagonal-me-2{
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(-10deg, white 50%, white 50%);
+    background-image: -webkit-linear-gradient(-10deg, lightgray 50%, lightgray 50%);
     height: .1rem;
   }
   .diagonal-me-3{
