@@ -91,19 +91,20 @@ h3 {
     padding: 1rem;
 }
 
+
 .me-img {
-    width: 55%;
+    width: 50%;
     margin: 2rem 0 6rem 0;
-    padding: 1rem;
-    /* border-left: 1px solid var(--grey);
-    border-top: 1px solid var(--grey); */
-    box-shadow: 0 .1rem .2rem 0 rgba(255,255,255,255.5);
+
     border-radius: .2rem;
-    opacity: .9;
+
+    box-shadow: 10px 10px #505050;
+ 
+   
+    
+  
 }
-.me-img:hover {
-    opacity: 1;
-}
+
 
 /* background color divs */
 .section-kowhite {
@@ -399,12 +400,15 @@ nav [class*="fa-"]:hover {
     flex-flow: column;
     justify-content: center;
     gap: 2.5rem;
-    opacity: .8;
+    opacity: .7;
+    border: 1px solid #505050;
+    border-radius: .2rem;
+    box-shadow: 10px 10px #505050;
 
    
 }
 .tech-list-a:hover {
-    border-top: 0.5px solid var(--grey);
+  
     /* border-left: 0.5px solid var(--grey); */
   
     opacity: 1;
@@ -421,7 +425,10 @@ nav [class*="fa-"]:hover {
     justify-content: center;
     gap: 2.5rem;
     opacity: .8;
-    box-shadow: 0 .2rem .4rem 0 rgba(255,255,255,255.5);
+    /* box-shadow: 0 .2rem .4rem 0 rgba(255,255,255,255.5); */
+    border: 1px solid #505050;
+    border-radius: .2rem;
+    box-shadow: 10px 10px #505050;
 
    
 }
@@ -448,11 +455,10 @@ nav [class*="fa-"]:hover {
 
 .projectImg {
     margin: 2rem 0 4rem 0;
-    padding: 1rem;
+
     /* border-left: 1px solid var(--grey);
     border-top: 1px solid var(--grey); */
-    box-shadow: 0 .1rem .2rem 0 rgba(255,255,255,255.5);
-    border-radius: .2rem;
+    box-shadow: 10px 10px #454545;
 }
 
 
@@ -819,7 +825,7 @@ footer ul {
   }
   .diagonal-me-2{
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(-10deg, white 50%, white 50%);
+    background-image: -webkit-linear-gradient(-10deg, var(--grey) 50%, var(--grey) 50%);
     height: .1rem;
   }
   .diagonal-me-3{
@@ -1103,7 +1109,11 @@ footer ul {
   .sta:hover {
     border-bottom: 1px solid var(--pink);
   }
+.screen {
 
+  border-radius: .2rem;
+  /* box-shadow: 5px 5px 5px 2px white; */
+}
 
 
 
