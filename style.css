@@ -55,7 +55,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: var(--sans);
-    background-color: var(--black);
+    background-color: black;
     color: var(--grey);
     font-size: var(--font-size);
     z-index: 3;
@@ -113,7 +113,7 @@ h3 {
 }
 
 .section-purple {
-    background-color: var(--purple);
+    background-color: black;
     padding-bottom: 25rem;
 }
 
@@ -136,7 +136,7 @@ h3 {
     padding: 2rem;
 }
 .section-about {
-    background-color: var(--black);
+    background-color: black;
     padding: 2rem;
 }
 
@@ -466,7 +466,7 @@ nav [class*="fa-"]:hover {
 footer {
     text-align: center;
     padding: 6rem 2rem;
-    background-color:  var(--black);
+    background-color:  black;
     width: 100%;
     color: white;
 }
@@ -813,19 +813,19 @@ footer ul {
   }
   .diagonal-me-flip{
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(-80deg, var(--purple) 50%, var(--black) 50%);
-    height: 40rem;
+    background-image: -webkit-linear-gradient(-90deg, yellow 50%, black 50%);
+    height: 1rem;
 
   }
   .diagonal-me-1{
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(80deg, var(--purple) 50%, var(--black) 50%);
+    background-image: -webkit-linear-gradient(80deg, yellow 50%, black 50%);
     height: 40rem;
   }
   .diagonal-me-2{
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(-10deg, var(--purple) 50%, var(--purple) 50%);
-    height: .2rem;
+    background-image: -webkit-linear-gradient(-10deg, white 50%, white 50%);
+    height: .1rem;
   }
   .diagonal-me-3{
     background-color: #013A6B;
@@ -840,8 +840,8 @@ footer ul {
 
   .diagonal-intro1{
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(70deg, var(--purple) 50%, var(--black) 50%);
-    height: 40rem;
+    background-image: -webkit-linear-gradient(10deg, black 50%, black 50%);
+    height: 20rem;
   }
 
   .diagonal-intro{
@@ -851,7 +851,7 @@ footer ul {
   }
   .diagonal-recipe{
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(-80deg, var(--purple) 50%, var(--green) 50%);
+    background-image: -webkit-linear-gradient(-80deg, black, var(--green) 50%);
     height: 40rem;
   }
   .diagonal-recipe-2{
@@ -1093,6 +1093,18 @@ footer ul {
   .flip-card-back {
 
     transform: rotateX(180deg);
+  }
+
+
+  .js {
+   color: yellow;
+  }
+  .sta {
+    color: var(--grey);
+
+  }
+  .sta:hover {
+    border-bottom: 1px solid var(--pink);
   }
 
 
