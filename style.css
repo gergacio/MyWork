@@ -74,7 +74,7 @@ h3 {
 }
 
 .link:hover {
-    color: var(--pink);
+    color: whitesmoke;
  
 }
 .sun-img {
@@ -646,10 +646,11 @@ footer ul {
 .proudof {
  
     font-family: var(--mono);
-    padding: 5rem;
+    padding: 3rem;
     font-size: 3rem;
     background-color: white;
-    color: black;
+    color: grey;
+   box-shadow: 15px 15px yellow;
 
 
 }
@@ -822,8 +823,13 @@ footer ul {
   }
   .diagonal-me-2{
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(-10deg, white 50%, white 50%);
+    background-image: -webkit-linear-gradient(-10deg, lightgray 50%, lightgray 50%);
     height: .1rem;
+  }
+  .diagonal-me-2Y{
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(70deg, white 70%, yellow 30%);
+    height: 10rem;
   }
   .diagonal-me-3{
     background-color: #013A6B;
@@ -1104,15 +1110,24 @@ footer ul {
 
   }
   .sta:hover {
-    border-bottom: 1px solid var(--pink);
+    border-bottom: 1px solid whitesmoke;
   }
-.screen {
 
-  border-radius: .2rem;
-  /* box-shadow: 5px 5px 5px 2px white; */
+.linkItem {
+  font-size: 1.5rem;
 }
 
-
+#contactf h3 {
+  color: darkgray;
+  font-size: 1.5rem;
+  padding: 2.5rem;
+}
+.green:hover {
+  color: green;
+}
+.red:hover {
+  color: red;
+}
 
 
 
