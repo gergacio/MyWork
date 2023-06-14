@@ -71,6 +71,7 @@ h3 {
     color: var(--aqua);
     text-decoration: none;
     font-family: var(--mono);
+    padding: 0;
 }
 
 .link:hover {
@@ -804,10 +805,10 @@ footer ul {
     height: .1rem;
 
   }
-  .diagonal-me-flip-1{
+  .diagonal-line{
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(-60deg, var(--purple) 50%, var(--purple) 50%);
-    height: 40rem;
+    background-image: -webkit-linear-gradient(-60deg, white 50%, white 50%);
+    height: .2rem;
    
   }
   .diagonal-me-flip{
@@ -1127,6 +1128,10 @@ footer ul {
 }
 .red:hover {
   color: red;
+}
+
+.boxShadow {
+  box-shadow: 10px 10px 10px 10px lightgray;
 }
 
 
