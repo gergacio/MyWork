@@ -222,7 +222,7 @@ h3 {
     margin: 0 auto;
     padding: 5rem; 
     font-weight: 900;
-    background-color: whitesmoke;
+    background-color: lightgray;
     color: black;
 
     
@@ -886,7 +886,7 @@ footer ul {
   }
   .diagonal-ss3{
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(50deg, whitesmoke 50%, whitesmoke 50%);
+    background-image: -webkit-linear-gradient(50deg, lightgray 50%, lightgray 50%);
     height: 20rem;
   }
   .diagonal-ss5{
@@ -896,7 +896,7 @@ footer ul {
   }
   .diagonal-ss4{
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(80deg, whitesmoke 50%, lightgray 50%);
+    background-image: -webkit-linear-gradient(80deg, lightgray 50%, darkgray 50%);
     height: 20rem;
   }
   .diagonal-about-intro{
@@ -1133,6 +1133,7 @@ footer ul {
 .boxShadow {
   box-shadow: 10px 10px 10px 10px lightgray;
 }
+
 
 
 
