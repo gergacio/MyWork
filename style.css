@@ -136,6 +136,7 @@ h3 {
 .section-white {
     background-color: black;
     padding: 2rem;
+  
 }
 .section-about {
     background-color: black;
@@ -1131,7 +1132,20 @@ footer ul {
 }
 
 .boxShadow {
-  box-shadow: 10px 10px 10px 10px lightgray;
+  box-shadow: 10px 10px lightgray;
+  border-radius: .2rem;
+  box-shadow: 10px 10px lightgray;
+}
+.boxShadow_recipe {
+  box-shadow: 2px 2px var(--greens);
+  border-radius: .2rem;
+  box-shadow: 5px 5px var(--greens);
+}
+
+.sectionShadow {
+  /* border: 1px solid lightgray; */
+  border-radius: .2rem;
+  box-shadow: 4px 4px var(--black);
 }
 
 
