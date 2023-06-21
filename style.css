@@ -99,7 +99,8 @@ h3 {
 
     border-radius: .2rem;
 
-    box-shadow: 10px 10px #505050;
+    box-shadow: 10px 10px #909495;
+    
  
    
     
@@ -652,7 +653,8 @@ footer ul {
     font-size: 3rem;
     background-color: white;
     color: grey;
-   box-shadow: 15px 15px yellow;
+    box-shadow: 15px 15px yellow;
+    border: 3px solid silver;
 
 
 }
@@ -828,6 +830,13 @@ footer ul {
     background-image: -webkit-linear-gradient(-10deg, lightgray 50%, lightgray 50%);
     height: .1rem;
   }
+  .diagonal-me-2P{
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(-10deg, lightgray 50%, lightgray 50%);
+    height: .1rem;
+    margin-bottom: .8rem;
+   
+  }
   .diagonal-me-2Y{
     background-color: #013A6B;
     background-image: -webkit-linear-gradient(70deg, white 70%, yellow 30%);
@@ -869,6 +878,9 @@ footer ul {
     background-color: #013A6B;
     background-image: -webkit-linear-gradient(70deg, yellow 70%, white 30%);
     height: 10rem;
+    box-shadow: 15px 15px whitesmoke;
+    border: 1px solid silver;
+  
   }
   .diagonal-sm{
     background-color: #013A6B;
@@ -1144,9 +1156,19 @@ footer ul {
 
 .sectionShadow {
   /* border: 1px solid lightgray; */
-  border-radius: .2rem;
+  border-radius: .1rem;
   box-shadow: 4px 4px var(--black);
 }
+.aboutShadow {
+
+  border-radius: .1rem;
+  border: 1px solid silver;
+  box-shadow: 15px 15px whitesmoke;
+}
+.screen-shadow {
+  border: 10px solid black;
+}
+
 
 
 
