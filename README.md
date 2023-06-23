@@ -23,7 +23,7 @@
 - List Projects 
 
 ## Screenshots
-![Example screenshot](./path/images/porfolio_home.png)
+![Example screenshot](./path/images/portfolio_home.png)
 
 ## Project Status
 Project is: _in progress_ 
