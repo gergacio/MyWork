@@ -72,10 +72,24 @@ h3 {
     text-decoration: none;
     font-family: var(--mono);
     padding: 0;
+  
+}
+.link-border {
+    text-decoration: none;
+    color: white;
+    border-bottom: solid 1px black;
+    transition: visibility 0s, opacity 2s linear;
+
+}
+.link-border:hover {
+  border-bottom: 1px solid white;
+  visibility: visible;
+  opacity: 1;
+
 }
 
 .link:hover {
-    color: var(--magenta);
+    color: var(--pink);
  
 }
 .sun-img {
@@ -96,16 +110,17 @@ h3 {
 .me-img {
     width: 50%;
     margin: 2rem 0 6rem 0;
-
-    border-radius: .2rem;
-
-    box-shadow: 10px 10px #909495;
-    
- 
-   
-    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;   
   
 }
+.logo-shadow {
+  padding: .5rem;
+  background-color: var(--black);
+
+  box-shadow: white 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 0, 0) 20px -20px;
+ 
+}
+
 
 
 /* background color divs */
@@ -140,7 +155,7 @@ h3 {
   
 }
 .section-about {
-    background-color: black;
+    background-color: white;
     padding: 2rem;
 }
 
@@ -175,10 +190,10 @@ h3 {
 
 /* intro styles */
 .logo {
-
-
     font-family: var(--mono);
     opacity: .9;
+    border: 1px solid white;
+    padding: .5rem;
 }
 .logo:hover {
   opacity: 1;
@@ -395,7 +410,8 @@ nav [class*="fa-"]:hover {
 }
 
 .tech-list-a {
-    margin-top: 5rem;
+    margin-top: 10rem;
+    margin-bottom: 25rem;
     padding: 5rem;
     list-style-type: none;
     font-size: 1.5rem;
@@ -404,15 +420,16 @@ nav [class*="fa-"]:hover {
     flex-flow: column;
     justify-content: center;
     gap: 2.5rem;
- 
-    border: 1px solid lightgray;
-    border-radius: .2rem;
-    box-shadow: 10px 10px lightgray;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
 
     color: black;
     background-color: white;
 
    
+}
+.tech-list-a:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .tech-list-sm {
@@ -433,6 +450,9 @@ nav [class*="fa-"]:hover {
     background-color: white;
 
    
+}
+.tech-list-sm-text-shadow {
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
 .desc-list {
@@ -554,9 +574,9 @@ footer ul {
 
   div > h2 {
     font-size: 10rem;
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0s, opacity 2s linear;
+    /* visibility: hidden; */
+    opacity: 0.5;
+    transition: visibility 0s, opacity 1s linear;
     margin-top: 3rem;
     margin-bottom: 3rem;
   }
@@ -1123,9 +1143,9 @@ footer ul {
     padding: .2rem;
 
   }
-  .sta:hover {
+  /* .sta:hover {
     border-bottom: 1px solid whitesmoke;
-  }
+  } */
 
 .linkItem {
   font-size: 1.5rem;
@@ -1136,12 +1156,7 @@ footer ul {
   font-size: 1.5rem;
   padding: 2.5rem;
 }
-.green:hover {
-  color: green;
-}
-.red:hover {
-  color: red;
-}
+
 
 .boxShadow {
   box-shadow: 10px 10px lightgray;
