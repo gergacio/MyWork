@@ -1244,12 +1244,14 @@ footer ul {
 /* Style the front side (fallback if image is missing) */
 .flip-box-front {
   background-color: #bbb;
-  color: black;
+  
+  color: white;
 }
 
 /* Style the back side */
 .flip-box-back {
-  background-color: whitesmoke;
+  background-color: white;
+
   color: white;
   transform: rotateY(180deg);
 }
@@ -1261,6 +1263,12 @@ footer ul {
 .text h2 {
   font-size: small;
 }
+}
+
+.back-shadow {
+  
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
 }
 
 
