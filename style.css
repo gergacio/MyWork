@@ -615,8 +615,8 @@ footer ul {
 
 
   .container {
-   margin-top: 15rem;
-   margin-bottom: 15rem;
+    margin-top: 10rem; 
+   /* margin-bottom: 15rem;  */
  
   }
   .recipeDesc {
