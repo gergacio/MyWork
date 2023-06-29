@@ -211,9 +211,10 @@ h3 {
 /* intro styles */
 .logo {
     font-family: var(--mono);
-    opacity: .8;
+    opacity: .6;
     border: 1px solid white;
-    padding: .5rem;
+    padding: .2rem;
+    font-size: .8rem;
 }
 .logo:hover {
   opacity: 1;
@@ -1162,6 +1163,7 @@ footer ul {
 
   .js {
    color: yellow;
+  
   }
   .sta {
     color: white;
@@ -1278,6 +1280,14 @@ footer ul {
   font-size: 2rem;
   color: whitesmoke;
   padding: 2rem;
+}
+.pink-p {
+  color: magenta;
+  
+
+}
+.blue-p {
+  color: #08E8DE;
 }
 
 
