@@ -118,12 +118,30 @@ h3 {
 .icon:hover{
   color: var(--hotmag);
 }
+.icon-in {
+  color: #0077b5
+}
+.icon-in:hover {
+  color: #00a0dc;
+}
+.icon-git {
+  color: #8229DE;
+}
+.icon-git:hover {
+ 
+  color: #D242FF;
+}
+.icon-mail {
+  color: #0ABAB5;
+}
+.icon-mail:hover {
+  color: #0CE6DF;
+}
+
 .sun-img {
     width: 130%;
     margin: 2rem 0 6rem 0;
     padding: 1rem;
-
-
 }
 
 .seeker-img {
@@ -1304,11 +1322,19 @@ footer ul {
   color: #08E8DE;
 }
 .counter {
-  background-color: var(--green);
+  background-color: var(--pink);
   color: white;
   padding: .2rem;
   font-size: small;
 }
+.icon-aws {
+  color: 	#FF5F1F;
+}
+.icon-aws:hover {
+
+  color: 	#FF9900;
+}
+
 
 
 
