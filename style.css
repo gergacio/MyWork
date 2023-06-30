@@ -105,10 +105,18 @@ h3 {
 
 }
 
-
+/* 
 .link:hover {
     color: var(--magenta);
  
+} */
+.icon {
+
+  color: var(--magenta);
+  padding-left: .5rem;
+}
+.icon:hover{
+  color: var(--hotmag);
 }
 .sun-img {
     width: 130%;
@@ -873,9 +881,9 @@ footer ul {
     background-image: -webkit-linear-gradient(-10deg, lightgray 50%, lightgray 50%);
     height: .1rem;
   }
-  .diagonal-me-2mag{
+  .diagonal-me-shadow{
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(-10deg, var(--magenta) 50%, var(--magenta) 50%);
+    background-image: -webkit-linear-gradient(-10deg, whitesmoke 50%, whitesmoke 50%);
     height: .1rem;
   }
   .diagonal-me-2green{
@@ -1294,6 +1302,12 @@ footer ul {
 }
 .pointa {
   color: #08E8DE;
+}
+.counter {
+  background-color: var(--green);
+  color: white;
+  padding: .2rem;
+  font-size: small;
 }
 
 
