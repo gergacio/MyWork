@@ -238,8 +238,10 @@ h3 {
 .logo {
     padding: .2rem;
     font-family: var(--mono);
-    border: 1px solid white;
+    /* border: 1px solid white; */
     font-size: .8rem;
+    background-color: yellow;
+    color: black;
 }
 
 
@@ -1327,6 +1329,12 @@ footer ul {
   padding: .2rem;
   font-size: small;
 }
+.count {
+  background-color: var(--black);
+  color: white;
+  padding: .2rem;
+  font-size: small;
+}
 .icon-aws {
   color: 	#FF5F1F;
 }
@@ -1334,6 +1342,13 @@ footer ul {
 
   color: 	#FF9900;
 }
+.red {
+  color: #FF1818;
+}
+.green {
+  color: var(--green);
+}
+
 
 
 
